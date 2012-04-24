@@ -1,0 +1,116 @@
+/*******************SHARED TYPE STYLES *****************************/
+body, div, select, textarea,input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+body {
+	font-size: 13px;
+	line-height: 18px;
+}
+
+
+select, textarea, input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	
+}
+
+
+a:link, 
+a:visited
+{
+  color: #1c4fad;
+  text-decoration: none;
+}
+
+
+a:hover, a:active
+
+{
+  text-decoration: underline;
+}
+
+
+.light /*shared_light*/ {
+	color: #999999
+}
+.empty, .placeholder /*shared_empty*/ {
+	font-style: italic;
+	font-size: 13px;
+	color: #666666
+}
+
+
+.sel /*shared_selected*/ {
+	color: #ffffff;
+	text-shadow: rgba(255,255,255,.75) 0px 1px 0px;
+}
+
+
+.small {
+	/* was shared_small*/
+	font-size: 11px ! important ;
+}
+
+
+
+.text /*shared_text*/ {
+	font-size: 13px;
+	color: #000;
+}
+
+
+
+/* Start ----------------------------------------------------- body.css*/
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: auto;
+	background-color: #495055;
+	overflow: auto;		
+}
+
+.wrapper {
+	background: transparent url('/images/background.jpg') repeat-x scroll center center;
+	min-height: 592px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.middle {
+	height: 288px;
+	width: 288px;
+	top: 50%;
+	left: 50%;
+	margin-left: -146px;
+	margin-top: -255px;
+	position: absolute;
+}
+
+
+
+.container {
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	min-width: 914px;
+	min-height: 592px;
+	position: absolute;
+
+    display: block;
+}
+
+
+#owner {
+display: block;
+height: 238px;
+width: 288px;
+margin-top: 128px;
+color: #ffffff;
+font-size: 14px;
+}
